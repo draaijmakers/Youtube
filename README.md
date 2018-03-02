@@ -6,13 +6,13 @@ Met vriendelijke groet,
 Davey Raaijmakers 
 
 SOCIAL MEDIA:
- YouTube: https://www.youtube.com/user/draaijmaker/
- Twitter: http://twitter.com/draaijmakers_
- Insta: http://instagram.com/draaijmakers_
- Snapchat: draaijmakers
+- YouTube: https://www.youtube.com/user/draaijmaker/
+- Twitter: http://twitter.com/draaijmakers_
+- Insta: http://instagram.com/draaijmakers_
+- Snapchat: draaijmakers
 
 BEKIJK OOK:
- Website van A tot Z - http://bit.ly/WebsiteMaken_van_A_tot_Z
- Website maken PHP - http://bit.ly/WebsiteMaken_PHP
- Website maken HTML5 - http://bit.ly/WebsiteMaken_HTML
- Random Monday - http://bit.ly/AfspeelLijst_Random_
+- Website van A tot Z - http://bit.ly/WebsiteMaken_van_A_tot_Z
+- Website maken PHP - http://bit.ly/WebsiteMaken_PHP
+- Website maken HTML5 - http://bit.ly/WebsiteMaken_HTML
+- Random Monday - http://bit.ly/AfspeelLijst_Random_
