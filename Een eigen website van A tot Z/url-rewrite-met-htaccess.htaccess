@@ -1,0 +1,51 @@
+/////////////////////////////////////////////////
+//                                             //
+//  DISCLAIMER                                 //
+//  Deze is gemaakt door Davey Raaijmakers     //
+//  Meer informatie: daveyraaijmakers.nl       //  
+//                                             //
+//  Bekijk de video die bij deze code hoort    //
+//  https://www.youtube.com/watch?v=78bGZJC2AYc//
+//                                             //
+//                                             //
+/////////////////////////////////////////////////
+
+/* URL hetschijven met htaccess - Een eigen website van A tot Z */
+
+ErrorDocument 400 /404.html
+ErrorDocument 401 /404.html
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+ErrorDocument 500 /404.html
+
+RewriteEngine On
+RewriteRule ^css/(.+) css/$1 [L]
+RewriteRule ^js/(.+) js/$1 [L]
+RewriteRule ^images/(.+) images/$1 [L]
+RewriteRule ^tiny_mce/(.+) tiny_mce/$1 [L]
+RewriteRule ^custum/(.+).css css/custum-css.php?user=$1 [L]
+
+RewriteRule ^beheer/toevoegen/(.+)/ beheer/index.php?actie=toevoegen&volgordeid=$1 [L]
+RewriteRule ^beheer/verwijderen/(.+)/ beheer/index.php?actie=verwijderen&paginaid=$1 [L]
+RewriteRule ^beheer/wijzigen/(.+)/ beheer/index.php?actie=wijzigen&paginaid=$1 [L]
+RewriteRule ^beheer/fotoalbum/(.+)/ beheer/index.php?actie=fotoalbum&fotoalbum=$1 [L]
+RewriteRule ^beheer/(.+).png beheer/$1.png [L]
+RewriteRule ^beheer/(.+)/ beheer/index.php?actie=$1 [L]
+RewriteRule ^beheer/ beheer/index.php [L]
+
+RewriteRule ^gratis-website-aanvragen.html index.php?actie=aanmelden [L]
+RewriteRule ^(.+)/gratis-website-aanvragen.html index.php?actie=aanmelden [L]
+
+RewriteRule ^opmaak-wizard/(.+)/(.+)/ opmaak-wizard.php?step=$1&id=$2 [L]
+RewriteRule ^opmaak-wizard.html opmaak-wizard.php?id=2 [L]
+
+RewriteRule ^inschijving/(.+)/ index.php?actie=inschijving&id=$1 [L]
+RewriteRule ^actie/(.+)/ index.php?actie=$1 [L]
+RewriteRule ^(.+)/zoeken.html index.php?user=$1&actie=zoeken [L]
+RewriteRule ^(.+)/fotoalbum/(.+) index.php?user=$1&actie=fotoalbum&cat=$1 [L]
+RewriteRule ^(.+)/fotoalbum.html index.php?user=$1&actie=fotoalbum [L]
+RewriteRule ^(.+)/verzenden/(.+).html index.php?user=$1&actie=contact&page=$2 [L]
+RewriteRule ^(.+)/(.+).html index.php?user=$1&actie=page&page=$2 [L]
+RewriteRule ^(.+)/ index.php?user=$1&actie=page [L]
+RewriteRule ^(.+).html index.php?actie=page&page=$1 [L]
+RewriteRule ^/ index.php?actie=page&page=je+eigen+gratis+website [L]

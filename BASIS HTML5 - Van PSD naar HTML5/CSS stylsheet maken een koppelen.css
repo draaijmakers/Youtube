@@ -1,0 +1,35 @@
+/////////////////////////////////////////////////
+//                                             //
+//  DISCLAIMER                                 //
+//  Deze is gemaakt door Davey Raaijmakers     //
+//  Meer informatie: daveyraaijmakers.nl       //  
+//                                             //
+//  Bekijk de video die bij deze code hoort    //
+//  https://www.youtube.com/watch?v=qaFQEXyKUYs//
+//                                             //
+//                                             //
+/////////////////////////////////////////////////
+
+/* CSS stylsheet maken een koppelen - Van PSD naar HTML5 */
+
+body {
+	background: #ccc;
+	font-family: verdana;
+	font-size: 14px;
+}
+
+header, nav, section, footer{
+	background-color: #888;
+	padding: 10px;
+	margin: 10px;
+}
+
+article {
+	background: #ccc;
+	padding: 5px;
+	margin: 5px 0px;
+}
+
+nav {
+	text-align: center;
+}

@@ -1,0 +1,60 @@
+/////////////////////////////////////////////////
+//                                             //
+//  DISCLAIMER                                 //
+//  Deze is gemaakt door Davey Raaijmakers     //
+//  Meer informatie: daveyraaijmakers.nl       //  
+//                                             //
+//  Bekijk de video die bij deze code hoort    //
+//  https://www.youtube.com/watch?v=47xMj5KUrrA//
+//                                             //
+//                                             //
+/////////////////////////////////////////////////
+
+/* jQuery Sneeuweffect maken - Kerstspecial */
+
+
+<?php include ('inc/db.php'); ?>
+<!DOCTYPE html>
+<html lang="nl">
+   <head>
+	<title>Film totaal</title>
+	<meta charset="utf-8" />
+	<meta name="copyright" content="Davey Raaijmakers - 2015" />
+	<meta name="description" content=" " />
+	<meta name="keywords" content="" />
+	
+	<link rel="DR Mediaproductie.nl" href="favicon.ico" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+	<script src="js/jquery.snow.js"></script>
+	<?php if (date('n') == 12 && date('j') > 6){echo '<script>$(document).ready(function(){$.fn.snow();});</script>';} ?>
+</head>
+<body>
+	<nav>
+		<ul id="menuPc">
+			<li class="headlink"><a href="" title="home">Home</a></li>
+			<li class="headlink">-</li>
+			<li class="headlink"><a href="" title="Film's">Films <span class="icon-white">&nbsp;</span></a>
+				<ul><div id="submenu">
+					<li><a href="" title="">Horror</a></li>
+					<li><a href="" title="">Actie</a></li>
+				</div></ul>
+			</li>
+			<li class="headlink">-</li>
+			<li class="headlink"><a href="" title="Contact">Contact</a></li>
+		</ul>
+	</nav>
+
+	<header>&nbsp;</header>
+	<div class="overlay">&nbsp;</div>
+
+	<section id="content">
+		<?php include('inc/plugin.php'); ?>
+	</section>
+
+	<footer>
+		<p>&copy; 2015 - website Davey Raaijmakers Mediaproductie</p>
+	</footer>
+</body>
+</html>

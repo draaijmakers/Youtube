@@ -1,0 +1,45 @@
+/////////////////////////////////////////////////
+//                                             //
+//  DISCLAIMER                                 //
+//  Deze is gemaakt door Davey Raaijmakers     //
+//  Meer informatie: daveyraaijmakers.nl       //  
+//                                             //
+//  Bekijk de video die bij deze code hoort    //
+//  https://www.youtube.com/watch?v=KPzzzC41Uf4//
+//                                             //
+//                                             //
+/////////////////////////////////////////////////
+
+/* ﻿HTML5 Map / Area */
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Zoek de verschillen</title>
+		<meta charset="UTF-8" />
+		<script>
+			function zoek(){
+				alert("Heel goed, dat was één van de veschillen");
+			}
+			function fout(){
+				alert("Helaas, dit was geen verschil");
+			}
+		</script>
+		<style>
+			area {
+				cursor:default;
+			}
+		</style>
+	</head>
+	<body>
+		<img src="zoek+de+verschillen.jpg" alt="Zoek de vesrchillen" usemap="#zoek" onclick="fout()" />
+		
+		<map name="zoek">
+			<area shape="rect" coords="180,140,200,200" alt="Voelspried" onclick="zoek()" />
+			<area shape="rect" coords="50,151,77,212" alt="Blad" onclick="zoek()" />
+			<area shape="rect" coords="138,295,180,350" alt="Poot" onclick="zoek()" />
+			<area shape="rect" coords="170,200,180,220" alt="Tong" onclick="zoek()" />
+			<area shape="rect" coords="300,287,340,255" alt="Oog" onclick="zoek()" />
+		</map>
+	</body>
+</html>

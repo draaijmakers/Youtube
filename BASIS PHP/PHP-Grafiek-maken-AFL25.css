@@ -1,0 +1,44 @@
+/////////////////////////////////////////////////
+//                                             //
+//  DISCLAIMER                                 //
+//  Deze is gemaakt door Davey Raaijmakers     //
+//  Meer informatie: daveyraaijmakers.nl       //  
+//                                             //
+//  Bekijk de video die bij deze code hoort    //
+//  https://www.youtube.com/watch?v=lL-m-1qTYPk//
+//                                             //
+//                                             //
+/////////////////////////////////////////////////
+
+/* Grafiek maken in PHP - PHP #25 */
+
+section {
+	background: #f00;
+}
+
+.grafiekStaaf {
+	height: 50px;
+	background: #0f0;
+	
+     -webkit-animation-duration: 1s; 
+     animation-duration: 1s; 
+     -webkit-animation-fill-mode: both; 
+     animation-fill-mode: both;
+     -webkit-animation-name: bounceIn; 
+     animation-name: bounceIn;  
+}
+
+
+@-webkit-keyframes bounceIn { 
+    0% {opacity: 0; -webkit-transform: translateX(-2000px);} 
+    60% {opacity: 0.5; -webkit-transform: translateX(30px);} 
+    80% {opacity: 1;-webkit-transform: translateX(-10px);} 
+    100% {-webkit-transform: translateX(0); }
+} 
+
+@keyframes bounceIn { 
+    0% {opacity: 0; transform: translateX(-2000px);} 
+    60% {opacity: 0.5; transform: translateX(30px);} 
+    80% {opacity: 1;transform: translateX(-10px);} 
+    100% {transform: translateX(0);}
+} 

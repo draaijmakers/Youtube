@@ -1,0 +1,44 @@
+/////////////////////////////////////////////////
+//                                             //
+//  DISCLAIMER                                 //
+//  Deze is gemaakt door Davey Raaijmakers     //
+//  Meer informatie: daveyraaijmakers.nl       //  
+//                                             //
+//  Bekijk de video die bij deze code hoort    //
+//  https://www.youtube.com/watch?v=fi-9sc7cWBk//
+//                                             //
+//                                             //
+/////////////////////////////////////////////////
+
+/* Afbeeldingen toevoegen in/met CSS - Van PSD naar HTML5 */
+
+body {
+	background: #fff;
+	font-family: verdana;
+	font-size: 14px;
+	padding: 0px;
+	margin: 0px;
+}
+
+nav {
+	position: absolute;
+	background: url('img/menu.png') no-repeat center center;
+	height: 82px;
+	width: 100%;
+}
+
+header {
+	background: url('img/banner.jpg') no-repeat center center;
+	height: 500px;
+}
+	.overlay {
+		background: url('img/overlay.png') no-repeat center center;
+		height: 100px;
+		margin-top: 400px;
+	}
+
+article {
+	background: #ccc;
+	padding: 5px;
+	margin: 5px 0px;
+}

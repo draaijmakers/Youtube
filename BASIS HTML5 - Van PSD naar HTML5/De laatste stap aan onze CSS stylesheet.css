@@ -1,0 +1,99 @@
+/////////////////////////////////////////////////
+//                                             //
+//  DISCLAIMER                                 //
+//  Deze is gemaakt door Davey Raaijmakers     //
+//  Meer informatie: daveyraaijmakers.nl       //  
+//                                             //
+//  Bekijk de video die bij deze code hoort    //
+//  https://www.youtube.com/watch?v=TPpGEol25HQ//
+//                                             //
+//                                             //
+/////////////////////////////////////////////////
+
+/* De laatste stap aan onze CSS stylesheet - Van PSD naar HTML5 */
+
+body {
+	background: #fff;
+	font-family: verdana;
+	font-size: 14px;
+	padding: 0px;
+	margin: 0px;
+}
+
+nav {
+	position: absolute;
+	background: url('../img/menu.png') no-repeat center center;
+	height: 82px;
+	width: 100%;
+	text-align: center;
+}
+	nav a {
+		color: #fff;
+		text-decoration: none;
+		padding: 5px;
+		line-height: 50px;
+	}
+	
+	nav a:hover {
+		color: #ccc;
+	}
+
+header {
+	background: url('../img/banner.jpg') no-repeat center center;
+	height: 500px;
+}
+	.overlay {
+		background: url('../img/overlay.png') no-repeat center center;
+		height: 100px;
+		margin-top: 400px;
+	}
+
+section {
+	width: 100%;
+	max-width: 900px;
+	margin: auto;
+}
+
+article {
+	padding: 5px;
+	margin: 5px 0px;
+}
+
+footer {
+	background: url('../img/footer.png') no-repeat center center;
+	height: 100px;
+}
+	footer p {
+		text-align: right;
+		padding: 75px 10px 0px 0px;
+		color: #fff;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
